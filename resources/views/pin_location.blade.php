@@ -29,8 +29,11 @@
             <button class="btn btn-success col-1" type="submit">រក្សាទុក</button>
             <a href="{{ route('map.index') }}" class="btn btn-danger col-1">ចាកចេញ</a>
         </form>
+        <br>
+        <h4>សូមចុចលើផែនទីដើម្បីកំណត់ទីតាំងរួចដាក់ឈ្មោះទីតាំង</h4>
     </div>
     <br>
+    
     <div class="mb-4" id="map"></div>
     
 

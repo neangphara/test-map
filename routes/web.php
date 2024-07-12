@@ -10,6 +10,7 @@ use App\Http\Controllers\LocationController;
 
 Route::post('/locations', [LocationController::class, 'store'])->name('locations.store');
 Route::get('/', [LocationController::class, 'index'])->name('map.index');
+Route::get('/map', [LocationController::class, 'index'])->name('map.index');
 Route::get('/pinlocation', [LocationController::class, 'create'])->name('pin.location');
 Route::get('/locations/{id}', [LocationController::class, 'show'])->name('locations.show');
 
